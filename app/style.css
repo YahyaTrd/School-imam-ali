@@ -6,7 +6,6 @@
 }
 *::selection {
   color: blue;
-  background-color: #6c5555;
 }
 .header {
   width: 100%;
