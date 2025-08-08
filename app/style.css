@@ -305,3 +305,116 @@ nav .fa-bars {
 .about-us p {
   padding: 20px 0 25px;
 }
+.location {
+  margin: auto;
+  padding: 80px 0;
+  width: 80%;
+}
+.location iframe {
+  width: 100%;
+}
+.contacter-nous {
+  margin: auto;
+  width: 80%;
+}
+.contacter-nous .col {
+  margin-bottom: 30px;
+  flex-basis: 48%;
+}
+.contacter-nous input,
+.contacter-nous textarea {
+  font-size: 1rem;
+  padding: 15px;
+  width: 100%;
+  outline: 0;
+  margin-bottom: 10px;
+}
+.contacter-nous form {
+  padding: 15px;
+  border: 2px solid blue;
+}
+.contacter-nous row {
+  display: flex;
+}
+.contacter-nous .col div {
+  align-items: center;
+  margin-bottom: 40px;
+  display: flex;
+}
+.contacter-nous h5,
+.contacter-nous p {
+  color: black;
+}
+.contacter-nous h5 {
+  font-weight: 600;
+  font-size: larger;
+}
+.contacter-nous p {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.contacter-nous i {
+  color: blue;
+  margin: 10px;
+  font-size: 29px;
+  margin-right: 30px;
+}
+.contacter-nous button {
+  font-size: 20px;
+  border: 1px solid black;
+  color: blue;
+  padding: 10px;
+  margin: 10px;
+  background: none;
+  cursor: pointer;
+}
+.contacter-nous button:hover {
+  background-color: blue;
+  color: white;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .navLinks ul li {
+    margin: 20px 10px;
+    display: block;
+    padding: 10px 20px;
+  }
+  .navLinks {
+    background: blue;
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    right: -200px;
+    top: 0;
+    z-index: 2;
+    text-align: left;
+    transition: 0.6s;
+  }
+  p,
+  .text a {
+    font-size: 1rem;
+  }
+  nav .navLinks .fa-xmark,
+  nav .fa-bars {
+    color: #fff;
+    display: block;
+    font-size: 26px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  .cards,
+  .cards2,
+  .cartes {
+    flex-direction: column;
+  }
+  .contactus h2 {
+    font-size: 1rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
